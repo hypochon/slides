@@ -1,5 +1,11 @@
 # hellowörld
-
+    ```js [1-2|3|4]
+    let a = 1;
+    let b = 2;
+    let c = x => 1 + 2 + x;
+    c(3);
+    ```
+    
 
 # einso <!-- .slide: data-background-image="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" data-background-size="cover" data-background-position="center" data-background-opacity="0.5" -->
 
