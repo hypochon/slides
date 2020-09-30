@@ -5,15 +5,21 @@
     let c = x => 1 + 2 + x;
     c(3);
     ```
+    
 --
+
 # einso <!-- .slide: data-background-image="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" data-background-size="cover" data-background-position="center" data-background-opacity="0.5" -->
+
 ---
+
 # zweiso
 ## so isses
 
 - eins <!-- .element: class="fragment" data-fragment-index="1" -->
 - zwei <!-- .element: class="fragment" data-fragment-index="2" -->
+
 ---
+
 ### linechart mit hintergrund
 <canvas data-chart="line">
 <!--
@@ -36,7 +42,9 @@
 -->
 </canvas>
 zusatz m ipsum dolor sit amet, 
+
 ---
+
 ## linechart
 <canvas class="stretch" data-chart="line">
 My first dataset, 65, 59, 80, 81, 56, 55, 40
@@ -58,9 +66,13 @@ Testnote für Speakerview.
 usw
 
 verdammich nu laufen
+
 --
+
 # check
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/Fr6pVEwNbfy8Lc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/linkedin/the-top-skills-that-can-get-you-hired-in-2017"</div>
+    
 ---
+
 ## doublecheck
 <a href="/Users/oraum/Downloads/liste-der-anspruchsberechtigten-berufe-gueltig-27-04-2020.pdf">Ihr PDF-Dokument</a>
