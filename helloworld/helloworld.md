@@ -42,7 +42,7 @@
 </canvas>
 zusatz m ipsum dolor sit amet, 
 
-----
+___
 
 ## linechart
 <canvas class="stretch" data-chart="line">
@@ -66,7 +66,7 @@ usw
 
 verdammich nu laufen
 
----
+___
 
 # check
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/Fr6pVEwNbfy8Lc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/linkedin/the-top-skills-that-can-get-you-hired-in-2017"</div>
