@@ -5,8 +5,7 @@
     let c = x => 1 + 2 + x;
     c(3);
     ```
-    
---
+---
 
 # einso <!-- .slide: data-background-image="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" data-background-size="cover" data-background-position="center" data-background-opacity="0.5" -->
 
@@ -43,7 +42,7 @@
 </canvas>
 zusatz m ipsum dolor sit amet, 
 
----
+----
 
 ## linechart
 <canvas class="stretch" data-chart="line">
@@ -67,7 +66,7 @@ usw
 
 verdammich nu laufen
 
---
+---
 
 # check
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/Fr6pVEwNbfy8Lc" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/linkedin/the-top-skills-that-can-get-you-hired-in-2017"</div>
