@@ -41,7 +41,45 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
-				hash: true,
+				hash: true, 
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: false,
+				chart: {
+					defaults: { 
+						global: { 
+							title: { fontColor: "grey" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "grey" },
+							},
+							tooltips: {
+								labels: { fontColor: "grey" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "grey" }, 
+							gridLines: { color: "grey", zeroLineColor: "grey" }, 
+							ticks: { fontColor: "grey", beginAtZero: true }, 
+						} 
+					},
+					line: { borderColor: [ "#9B6799", "#8DD8F2", "#84B5E4", "#908EC7", "#F9F871", "#964260" ] }, 
+					bar: { backgroundColor: [ "#9B6799", "#8DD8F2", "#84B5E4", "#908EC7", "#F9F871", "#964260" ]}, 
+					pie: { backgroundColor: [ ["#9B6799", "#8DD8F2", "#84B5E4", "#908EC7", "#F9F871", "#964260"] ]},
+					radar: { borderColor: [ "#9B6799", "#8DD8F2", "#84B5E4", "#908EC7", "#F9F871", "#964260" ]}, 
+				},
+				menu: { // Menu works best with font-awesome installed: sudo apt-get install fonts-font-awesome
+					themes: false,
+					transitions: false,
+					markers: true,
+					hideMissingTitles: true,
+					custom: [
+				            { title: 'Plugins', icon: '<i class="fa fa-external-link-alt"></i>', src: 'toc.html' },
+				            { title: 'About', icon: '<i class="fa fa-info"></i>', src: 'about.html' }
+				        ]
+				},
 
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealChart ]
