@@ -12,52 +12,41 @@
 
 ---
 
-# zweiso
-## so isses
+# zweiso 
+## __so isses__ <!-- .element: style="font-size:18vw;" -->
 
 - eins <!-- .element: class="fragment" data-fragment-index="1" -->
 - zwei <!-- .element: class="fragment" data-fragment-index="2" -->
+- drei <!-- .element: class="fragment" data-fragment-index="3" -->
+- fünf <!-- .element: class="fragment" data-fragment-index="2" -->
+
 
 ---
 
-### linechart mit hintergrund
-<canvas data-chart="line">
-<!--
-{
- "data": {
-  "labels": ["January"," February"," March"," April"," May"," June"," July"],
-  "datasets": [
-   {
-    "data":[65,59,80,81,56,55,40],
-    "label":"My first dataset","backgroundColor":"rgba(20,220,220,.8)"
-   },
-   {
-    "data":[28,48,40,19,86,27,90],
-    "label":"My second dataset","backgroundColor":"rgba(220,120,120,.8)"
-   }
-  ]
- },
- "options": { "responsive": "true" }
-}
--->
+### Piechart
+<canvas class="stretch" data-chart="pie">
+, today, tmrw, week, month
+My first dataset, 40, 40, 20, 6
+</canvas>
+
+---
+
+### linechart 
+<canvas class="stretch" data-chart="line">
+, jan, feb, mar, apr, may, june, july
+dataset eins, 65, 59, 80, 81, 56, 55, 40
+dataset zwei, 28, 48, 40, 19, 86, 27, 90
+dataset drei, 77, 43, 90, 23, 66, 23, 50
 </canvas>
 zusatz m ipsum dolor sit amet, 
 
-___
+---
 
-## linechart
-<canvas class="stretch" data-chart="line">
-My first dataset, 65, 59, 80, 81, 56, 55, 40
-<!-- This is a comment that will be ignored -->
-My second dataset, 28, 48, 40, 19, 86, 27, 90
-<!--
-{
- "data" : {
-  "labels" : ["Enero", "Febrero", "Marzo", "Avril", "Mayo", "Junio", "Julio"],
-  "datasets" : [{ "borderColor": "#0f0", "borderDash": ["5","10"] }, { "borderColor": "#0ff" } ]
- }
-}
--->
+### Barchart
+<canvas class="stretch" data-chart="bar">
+,today, tmrw
+My first dataset, 10, 20
+my second dataset, 55, 38
 </canvas>
 
 Testnote
