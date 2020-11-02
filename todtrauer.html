@@ -1,0 +1,96 @@
+<!doctype html>
+<div class='reveal'>
+  <div class='footer'>
+    <font color=#d1d1d1 font size="1">© Raum, O. & Börner, E. (Berlin, 2020)</font>
+  </div>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/league_1.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="schulpsy/todtrauer/todtrauer.md"
+         				data-separator="^---"
+         				data-separator-vertical="^___"
+         				data-separator-notes="^Note:"
+         				data-charset="utf-8">
+    <!--
+        Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+        For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+    -->
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/chart/Chart.min.js"></script>
+		<script src="plugin/chart/plugin.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/chalkboard/plugin.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true, 
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				mouseWheel: false,
+				chart: {
+					defaults: { 
+						global: { 
+							title: { fontColor: "white" }, 
+							legend: {
+								position: "top",
+								labels: { fontColor: "white" },
+							},
+							tooltips: {
+								labels: { fontColor: "white" },
+							},
+						}, 
+						scale: { 
+							scaleLabel: { fontColor: "white" }, 
+							gridLines: { color: "grey", zeroLineColor: "grey" }, 
+							ticks: { fontColor: "white", beginAtZero: true }, 
+						} 
+					},
+					line: { borderColor: [ "#f5cac3", "#84a59d", "#f7ede2", "#f6bd60", "#f28482" ] }, 
+					bar: { backgroundColor: [ "#f5cac3", "#84a59d", "#f7ede2", "#f6bd60", "#f28482" ]}, 
+					pie: { backgroundColor: [ ["#f5cac3", "#84a59d", "#f7ede2", "#f6bd60", "#f28482"] ]},
+					radar: { borderColor: [ "#f5cac3", "#84a59d", "#f7ede2", "#f6bd60", "#f28482" ]}, 
+				},
+				menu: { // Menu works best with font-awesome installed: sudo apt-get install fonts-font-awesome
+					themes: false,
+					transitions: false,
+					markers: true,
+					hideMissingTitles: true,
+					custom: [
+				            { title: 'Plugins', icon: '<i class="fa fa-external-link-alt"></i>', src: 'toc.html' },
+				            { title: 'About', icon: '<i class="fa fa-info"></i>', src: 'about.html' }
+				        ]
+				},
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealZoom, RevealChart, RevealSearch, RevealChalkboard ]
+			});
+		</script>
+	</body>
+</html>

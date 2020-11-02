@@ -11,3 +11,24 @@ overflow-y: auto !important;
 overflow-x: hidden !important;
 height: 700px;
 }
+
+.reveal .footer {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  font-size: 0.5em;
+}
+
+
+.left
+{
+	width: 40%;
+	float: left;
+}
+
+.right
+{
+	width: 40%;
+	float: right;
+}		
+
