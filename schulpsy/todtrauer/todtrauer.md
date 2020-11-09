@@ -29,7 +29,7 @@ Note:
 - Weitere wichtige Punkte im Zusammenhang mit Tod und wenn man als Lehrkraft Helfer:in ist 
 
 ---
-<!-- .slide: data-visibility="hidden" data-background-image="schulpsy/todtrauer/media/bench.jpg" data-background-size="cover" data-background-position="center" data-background-opacity="0.3" -->
+<!-- .slide: data-background-image="schulpsy/todtrauer/media/bench.jpg" data-background-size="cover" data-background-position="center" data-background-opacity="0.3" -->
 ## Der Tod ist für <span style="color:#ffffeb">mich ...</span> 
 #### Austausch zu zweit: 
 Erinnerungen an einen Verlust... Wie haben Sie zuerst reagiert? Wie ging es dann weiter? Was hat geholfen?
@@ -342,7 +342,7 @@ ___
 <br />
 
 #### Phasen des Sterbens und Phasen des Trauerns <!-- .element: style="color:#ffffeb" align="left" -->
-- Die Phasen müssen durchlaufen werden. <!-- .element: align="left"-->
+- Trauer muss aktiv bewältigt werden. <!-- .element: align="left"-->
 - Im zeitlichen Verlauf, unterschiedliche Bedürfnisse/Aufgaben. <!-- .element: align="left"-->
 - Wichtig zu wissen, um gut unterstützen zu können <!-- .element: align="left"-->
 
@@ -638,7 +638,8 @@ ___
 - Liefert schnell einsetzbare Anreize zur Stressbewältigung 
 - Möglichst Angebote aus allen Bereichen
 
-
+Notes: 
+- Abbreviatur/Abkürzung für die einzelnen Copingkanäle
 ___
 <!-- .slide: data-background-image="schulpsy/todtrauer/media/belief.JPG" data-background-size="cover" data-background-position="center" data-background-opacity="0.3" -->
 # Belief 
@@ -810,7 +811,7 @@ ___
 
 ___
 <!-- .slide: data-background-image="schulpsy/todtrauer/media/sports.jpg" data-background-size="50%" data-background-position="right" --> 
-### Sport <!-- .element: class="left" -->
+## Sport <!-- .element: class="left" -->
 
 ___
 <!-- .slide: data-background-image="schulpsy/todtrauer/media/yoga.jpg" data-background-size="50%" data-background-position="right" --> 
@@ -858,7 +859,7 @@ ___
 <br />
 
 #### Phasen des Sterbens und Phasen des Trauerns <!-- .element: style="color:#ffffeb" align="left" -->
-- Die Phasen müssen durchlaufen werden. <!-- .element: align="left"-->
+- Trauer muss aktiv bewältigt werden. <!-- .element: align="left"-->
 - Im zeitlichen Verlauf, unterschiedliche Bedürfnisse/Aufgaben. <!-- .element: align="left"-->
 - Wichtig zu wissen, um gut unterstützen zu können <!-- .element: align="left"-->
 
